@@ -7,8 +7,3 @@
 #=================================================
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
-#添加自定义组件
-git clone https://github.com/sypopo/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/sypopo/luci-theme-argon-mc.git package/luci-theme-argon-mc
