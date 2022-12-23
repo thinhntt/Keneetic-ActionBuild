@@ -12,6 +12,3 @@
 git clone https://github.com/sypopo/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sypopo/luci-theme-argon-mc.git package/luci-theme-argon-mc
-git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
-git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
-mkdir -p package/parted && cp -i package/luci-app-diskman/Parted.Makefile package/parted/Makefile
