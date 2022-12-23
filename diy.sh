@@ -15,8 +15,3 @@ git clone https://github.com/sypopo/luci-theme-argon-mc.git package/luci-theme-a
 git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
 git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 mkdir -p package/parted && cp -i package/luci-app-diskman/Parted.Makefile package/parted/Makefile
-
-
-
-#修改机器名称
-sed -i 's/OpenWrt/RaspberryPi4/g' package/base-files/files/bin/config_generate
