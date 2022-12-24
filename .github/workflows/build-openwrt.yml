@@ -65,7 +65,9 @@ jobs:
     - name: Compile the firmware
       id: compile
       run: |
+        mv Keenetic_MI3Gv1_ZM.15_stable_3.07.C.4.0-2_factory.bin openwrt
         cd openwrt
+        ./unpack.sh Keenetic_MI3Gv1_ZM.15_stable_3.07.C.4.0-2_factory.bin
         make
 
     - name: Check space usage
